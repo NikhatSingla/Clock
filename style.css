@@ -1,0 +1,20 @@
+.clock {
+    display: inline-block;
+    width: fit-content;
+    position: relative;
+}
+
+.hand {
+    position: absolute;
+    top: 0px;
+}
+
+.minute {
+    left: calc(50% - 2.5px);
+}
+.hour {
+    left: calc(100px - 3.5px);
+}
+.second {
+    left: calc(50% - 1.5px);
+}
