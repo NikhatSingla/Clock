@@ -18,4 +18,5 @@ function changeTime() {
     footer.innerText = hour + ":" + minute + ":" + second;
 }
 
+changeTime();
 setInterval(changeTime, 1000);
